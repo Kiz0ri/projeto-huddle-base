@@ -1,0 +1,102 @@
+html {
+    font-size: 62.5%;
+    font-family: var(--body-font);
+    color: #fff;
+}
+
+body {
+    background: url('../images/bg-desktop.svg') var(--primary-dark-color) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    padding: 6rem;
+
+    display: flex;
+    justify-content: start;
+}
+
+.header img {
+    height: 5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.container img {
+    max-width: 709px;
+    max-height: 506px;
+    width: 50%;
+    height: auto;
+    margin-left: 6rem;
+}
+
+.container .information {
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.container .information h1 {
+    font-family: var(--heading-font);
+    text-transform: capitalize;
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin: 40px 0 30px;
+}
+
+.container .information p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.container .information .btn-register {
+    background-color: #fff;
+    color: var(--primary-dark-color);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1.5rem 7rem;
+    border-radius: 5rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.container .information .btn-register:hover {
+    background-color: var(--primary-soft-color);
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    padding: 4rem;
+}
+
+.footer .social {
+    width: auto;
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer .social a i {
+    font-size: 4rem;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer .social a:hover i {
+    color: var(--primary-soft-color);
+}

@@ -1,0 +1,7 @@
+:root {
+    --primary-dark-color: hsl(257, 40%, 49%);
+    --primary-soft-color: hsl(300, 69%, 71%);
+
+    --heading-font: "Poppins", sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+}

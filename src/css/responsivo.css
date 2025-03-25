@@ -1,0 +1,68 @@
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container img {
+        width: 80%;
+        margin: 0;
+    }
+
+    .container .information {
+        width: 90%;
+        margin: 3rem 0;
+    }
+
+    .footer .social {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+ 
+ @media (max-width: 450px) {
+
+    .header {
+        padding: 3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .header img {
+        height: 4rem;
+    }
+
+    body {
+        background: url('../images/bg-mobile.svg') var(--primary-dark) no-repeat;
+    }
+
+    .container .information {
+        width: 80%;
+        margin: 0;
+    }
+
+    .container .information h1 {
+        font-size: 2.5rem;
+        margin: 6.5rem 0 2rem;
+        text-align: center;
+    }
+
+    .container .information p {
+        font-size: 1.6rem;
+        margin-bottom: 4rem;
+    }
+
+    .container .information .btn-register {
+        padding: 1rem 8rem;
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        padding: 2rem 0 3.5rem;
+    }
+
+    .footer .social a i {
+        font-size: 3rem;
+    }
+}
