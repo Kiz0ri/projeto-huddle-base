@@ -7,15 +7,16 @@ html {
 body {
     background: url('../images/bg-desktop.svg') var(--primary-dark-color) no-repeat center;
     background-size: cover;
-    min-height: 100vh;
-
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .header {
-    width: 100%;
+    width: 100vw;
     padding: 6rem;
 
     display: flex;
@@ -27,7 +28,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -78,8 +79,8 @@ body {
 }
 
 .footer {
-    width: 100%;
-    padding: 4rem;
+    width: 100vw;
+    padding: 2.5rem;
 }
 
 .footer .social {
@@ -91,12 +92,27 @@ body {
     gap: 2rem;
 }
 
-.footer .social a i {
-    font-size: 4rem;
-    color: #fff;
+.footer .social li {
+    
+    border: 1px solid #fff;
+    border-radius: 50%;
     transition: 0.3s;
+    text-align: center;
 }
 
-.footer .social a:hover i {
+.footer .social li a i {
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #fff;
+    transition: 0.3s;
+    height: 45px;
+    width: 45px;
+}
+
+.footer .social li a:hover i {
     color: var(--primary-soft-color);
 }
+
+.footer .social li:hover {
+    border: 1px solid var(--primary-soft-color);
+} 

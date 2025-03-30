@@ -1,3 +1,18 @@
+@media(min-width: 1445px) {
+
+    .container {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container img {
+        max-width: 950px;
+        max-height: 660px;
+    }
+}
+
+
+
 
 @media (max-width: 1024px) {
     .container {
@@ -21,8 +36,8 @@
         margin-top: 2rem;
     }
 }
- 
- @media (max-width: 450px) {
+
+@media (max-width: 450px) {
 
     .header {
         padding: 3rem;
@@ -34,7 +49,8 @@
     }
 
     body {
-        background: url('../images/bg-mobile.svg') var(--primary-dark) no-repeat;
+        background: url('../images/bg-mobile.svg') var(--primary-dark-color) no-repeat;
+        background-size: contain;
     }
 
     .container .information {
@@ -62,7 +78,9 @@
         padding: 2rem 0 3.5rem;
     }
 
-    .footer .social a i {
-        font-size: 3rem;
+    .footer .social li a i {
+        font-size: 2rem;
+        width: 38px;
+        height: 38px;
     }
 }
